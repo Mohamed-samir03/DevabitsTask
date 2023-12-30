@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prayer_times_nav_graph"
+    app:startDestination="@id/prayerTimesFragment">
+
+    <fragment
+        android:id="@+id/prayerTimesFragment"
+        android:name="com.mosamir.devabitstask.prayer_times.presentation.fragment.PrayerTimesFragment"
+        android:label="fragment_prayer_times"
+        tools:layout="@layout/fragment_prayer_times" />
+</navigation>
